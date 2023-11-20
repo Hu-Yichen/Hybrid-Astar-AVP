@@ -7,6 +7,7 @@ This project proposes a solution to the path planning problem using a hybrid A* 
 <img src="hybrid_astar/imageshow/S1_Con&RS.png" width="500" />
 <img src="hybrid_astar/imageshow/S2_Con&RS.png" width="500" />
 <img src="hybrid_astar/imageshow/S3_Con&RS.png" width="500" />
+
 ## 3. Setup
 
  (1). **Eigen 3**
