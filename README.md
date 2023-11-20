@@ -39,3 +39,17 @@ source devel/setup.bash
 ```shell
 roslaunch hybrid_astar run_hybrid_a_star.launch
 ```
+
+Set the initial pose by clicking 2D Pose Estimate or run this code in another terminal:
+
+```shell
+source devel/setup.bash
+rosrun hybrid_astar init_pose_publisher
+```
+
+Set the goal pose by clicking 2D Pose Estimate or run this code in another terminal:
+
+```shell
+source devel/setup.bash
+rosrun hybrid_astar goal_pose_publisher
+```
