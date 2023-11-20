@@ -17,3 +17,25 @@ This project proposes a solution to the path planning problem using a hybrid A* 
 ```shell
 sudo apt-get install libeigen3-dev
 ```
+
+(2). **Clone to a new folder**
+
+```shell
+mkdir catkin_ws
+cd catkin_ws
+git clone https://github.com/Hu-Yichen/Hybrid-Astar-AVP.git
+```
+
+(3). **Build**
+
+```shell
+cd hybrid_astar
+carkin_make
+source devel/setup.bash
+```
+
+(3). **Launch hybrid A star**
+
+```shell
+roslaunch hybrid_astar run_hybrid_a_star.launch
+```
