@@ -10,9 +10,9 @@ This project proposes a solution to the path planning problem using a hybrid A* 
 
 ## 3. Setup
 
- (1). **Eigen 3**
+ (1). **Set up dependence :**
 
- Set up dependence :
+ Eigen 3:
  
 ```shell
 sudo apt-get install libeigen3-dev
